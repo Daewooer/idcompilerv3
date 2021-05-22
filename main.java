@@ -26,11 +26,18 @@ public class main {
         System.out.println("Nice, you're username is " + MySex);
         //sex section done
 
+         System.out.println("What is you're hight?");
+        String MyHight = myObj.nextLine();
+        System.out.println("Nice, you're username is " + MyHight);
+        //sex section done
+        
         System.out.println("You're id is ready");
 
         System.out.println("Name: " + MyName1  );
         System.out.println("Username: " + MyUsername );
         System.out.println("Age: " + MyAge );
         System.out.println("Sex: " + MySex );
+        System.out.println("Sex: " + MyHight );
+
     }
 }
